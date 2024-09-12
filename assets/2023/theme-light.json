@@ -260,6 +260,9 @@
     },
     "file_cassandra": {
       "iconPath": "./icons/cassandra.svg"
+    },
+    "file_docker_compose": {
+      "iconPath": "./icons/dockerCompose.svg"
     }
   },
   "file": "file_text",
@@ -322,8 +325,10 @@
     "go.mod": "file_gomodsum",
     "go.sum": "file_gomodsum",
     "Directory.Build.props": "file_buildprops",
-     "build.gradle": "file_gradle",
-     "gradlew": "file_shell"
+    "build.gradle": "file_gradle",
+    "gradlew": "file_shell",
+    "docker-compose.yml": "file_docker_compose",
+    "docker-compose.yaml": "file_docker_compose"
   },
   "fileExtensions": {
     "ml": "file_ml",
