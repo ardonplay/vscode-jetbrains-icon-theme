@@ -257,6 +257,9 @@
     },
     "file_gradle": {
       "iconPath": "./icons/gradle.svg"
+    },
+    "file_cassandra": {
+      "iconPath": "./icons/cassandra.svg"
     }
   },
   "file": "file_text",
@@ -319,7 +322,8 @@
     "go.mod": "file_gomodsum",
     "go.sum": "file_gomodsum",
     "Directory.Build.props": "file_buildprops",
-     "build.gradle": "file_gradle"
+     "build.gradle": "file_gradle",
+     "gradlew": "file_shell"
   },
   "fileExtensions": {
     "ml": "file_ml",
@@ -432,6 +436,7 @@
     "lua": "file_lua",
     "hs": "file_haskell",
     "graphql": "file_graphql",
-    "gradle": "file_gradle"
+    "gradle": "file_gradle",
+    "cql": "file_cassandra"
   }
 }
