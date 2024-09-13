@@ -11,7 +11,8 @@
   "version": "2.23.0",
   "scripts": {
     "prebuild": "tsx ./scripts/build/build.ts",
-    "package": "vsce package"
+    "package": "vsce package",
+    "package!": "tsx ./scripts/build/build.ts && vsce package"
   },
   "license": "MIT",
   "icon": "logo.png",
